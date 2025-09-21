@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>To-Do Items</h2>
+
+  <form id="todoForm">
+    <input type="task" id="taskName" placeholder="Enter task name">
+    <input type="description" id="description" placeholder="Enter description name">
+    <input type="date" id="postedDate">
+    <input type="date" id="targetDate">
+    <button type="submit">Add Task</button>
+    <button type="reset">Reset</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Task</th>
+        <th>Posted Date</th>
+        <th>Target Date</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="todoTable"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
