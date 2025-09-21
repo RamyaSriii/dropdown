@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid rgba(204, 204, 204, 0.623); padding: 8px; text-align: center; }
+th { background: #f2f2f2; }
+input, button { padding: 6px; margin: 5px; }
+.action-btn {
+  padding: 4px 8px;
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.edit-btn { background: #af4c7c; color: rgb(255, 255, 255); }
+.update-btn { background: #f39121; color: rgb(255, 255, 255); }
+.update-btn:disabled { background: #cccccc30; cursor: not-allowed; }
