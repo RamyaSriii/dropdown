@@ -92,12 +92,4 @@ document.getElementById("todoForm").addEventListener("submit", function(e) {
 
 
 
-<script>
-   var x = 6;
-    let z = 6;
-    console.log(x);
-    console.log(z);
-    console.log(x);
-    console.log(z);
-</script>
 
